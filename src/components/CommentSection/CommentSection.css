@@ -1,0 +1,91 @@
+/* CommentSection.css */
+
+/* Container for the whole comment section */
+.comment-section {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+
+  /* Toggle button to show/hide comments */
+  .comment-section__toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  .comment-section__toggle:hover {
+    background-color: #0056b3;
+  }
+
+  /* Form container for new comment input */
+  .comment-form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Text area for entering a new comment */
+  .comment-form__input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+    font-size: 14px;
+  }
+
+  /* Submit button for posting a new comment */
+  .comment-form__submit {
+    margin-top: 8px;
+    align-self: flex-end;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  .comment-form__submit:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .comment-form__submit:hover:enabled {
+    background-color: #218838;
+  }
+
+  /* Container for the list of comments */
+  .comments-list {
+    margin-top: 20px;
+  }
+
+  /* Each individual comment container */
+  .comment {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #333;
+  }
+
+  /* Text of the comment */
+  .comment__text {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* Timestamp for the comment */
+  .comment__timestamp {
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+    display: block;
+  }
