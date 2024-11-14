@@ -1,0 +1,48 @@
+/* BlogList.css */
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between each blog post */
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Center the list on the page */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+
+  /* Styles for BlogPost component */
+  .blog-post {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .blog-post__header {
+    margin-bottom: 15px;
+  }
+
+  .blog-post__title {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+  }
+
+  .blog-post__meta {
+    font-size: 0.9em;
+    color: #666;
+  }
+
+  .blog-post__author,
+  .blog-post__date,
+  .blog-post__read-time {
+    margin-right: 10px;
+  }
+
+  .blog-post__content {
+    font-size: 1em;
+    color: #444;
+    line-height: 1.6;
+  }
